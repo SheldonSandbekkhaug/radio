@@ -5,5 +5,4 @@ A simple radio/music player using pygame libraries.
 
 Requires Python and pygame (http://pygame.org) to run.
 
-This script can play sound files of types mp3, wav, and ogg. Simply place your files in a directory called 'music' and
-radio.py will select play songs at random until the script is stopped.
+This script can play wav sound files (though mp3 and ogg could work, they are not yet officially supported). Simply place your files in a directory called 'music' where the script lives, and radio.py will play those songs at random until each song has been played once.
