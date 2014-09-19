@@ -119,7 +119,7 @@ class MusicPlayer(object):
 
     new_position = self.music_queue_position - 1
     
-    if (new_position <= 0):
+    if (self.music_queue_position <= 0):
       # Play the current song if we're at the beginning of the queue
       mixer.music.play(0,0)
       return
